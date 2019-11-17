@@ -104,4 +104,8 @@ body {
     .infohandler {
         margin-top: 12%;
     }
+
+    .button {
+        transform: scale(1.7);
+    }
 }
