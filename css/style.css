@@ -1,0 +1,117 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-size: 12pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --container-width: 100vw;
+    --container-height: 100vh;
+    --project-color: #2e2e2e;
+    --project-complementary-color: rgb(53, 53, 53);
+    --project-font-color: rgb(243, 243, 243)
+}
+
+.pagecontainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollhandler {
+    height: var(--container-height);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    transition: .15s;
+    scrollbar-width: none;
+} ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.project {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: var(--container-height);
+    width: var(--container-width);
+    background-color: var(--project-color);
+    scroll-snap-align: start;
+    color: var(--project-font-color);
+}
+
+.infohandler {
+    opacity: 0;
+    margin: 5%;
+    transition: 1s;
+}
+
+.infohandler p {
+    font-size: .8rem;
+}
+
+.infocontainer {
+    width: var(--container-width);
+    height: 5%;
+    background-color: var(--project-color);
+}
+
+.infocontainer-show {
+    width: var(--container-width);
+    height: 85%;
+    background-color: var(--project-color);
+}
+
+.buttoncontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: var(--project-complementary-color);
+    bottom: 3vh;
+    opacity: .7;
+    transition: 1s;
+}
+
+.button span {
+    background-color: var(--project-font-color);
+}
+
+@media only screen and (min-width: 1024px) {
+    :root {
+        --container-width: 768px;
+        --container-height: 500px;
+    }
+    .button {
+        transform: scale(1.1);
+    }
+
+    .button:hover {
+        opacity: 1;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .infohandler {
+        margin-top: 12%;
+    }
+}
