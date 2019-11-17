@@ -20,6 +20,17 @@
     z-index: 1;
 }
 
+.buttonicon-hidden-merge {
+    opacity: 0;
+    position: absolute;
+    height: 8px;
+    width: 4px;
+    bottom: 56%;
+    transform: rotate(90deg);
+    background-color: var(--project-complementary-color);
+    z-index: 1;
+}
+
 .buttonicon-line-90-i {
     position: absolute;
     height: 7px;

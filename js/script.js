@@ -4,6 +4,7 @@ let spanbOne = document.getElementById("icon-two-1");
 
 let circle = "buttonicon-circle-i";
 let hidden = "buttonicon-hidden-i"
+let hiddenMerge = "buttonicon-hidden-merge"
 let lineI = "buttonicon-line-90-i";
 let lineMerge = "buttonicon-line-90";
 let line45 = "buttonicon-line-45";
@@ -35,15 +36,20 @@ function transformToI () {
 
     setTimeout(function(){
         spanaOne.classList.remove(lineMerge);
+        spanaOne.classList.add(hiddenMerge);
+    }, 700)
+
+    setTimeout(function(){
+        spanaOne.classList.remove(hiddenMerge);
         spanaOne.classList.add(hidden);
-    }, 500)
+    }, 850)
 
     setTimeout(function(){
         spanaOne.classList.remove(hidden);
         spanaOne.classList.add(circle);
         spanbOne.classList.remove(lineMerge);
         spanbOne.classList.add(lineI);
-    }, 800)
+    }, 1000)
 }
 
 spanaOne.classList.add(circle);
