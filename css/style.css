@@ -88,25 +88,15 @@ body {
     width: 60px;
     background-color: var(--project-complementary-color);
     bottom: 3vh;
-    opacity: .7;
+    opacity: .8;
     transition: 1s;
 }
 
-.button span {
-    background-color: var(--project-font-color);
-}
 
 @media only screen and (min-width: 1024px) {
     :root {
         --container-width: 768px;
         --container-height: 500px;
-    }
-    .button {
-        transform: scale(1.1);
-    }
-
-    .button:hover {
-        opacity: 1;
     }
 }
 
