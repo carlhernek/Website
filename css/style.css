@@ -109,4 +109,8 @@ body {
     .button {
         transform: scale(2);
     }
+
+    body {
+        background-color: var(--project-color);
+    }
 }
