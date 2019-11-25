@@ -28,7 +28,7 @@ btnOne.onclick = function() {
         contOne.style.transition = "1s" 
         contOne.classList.remove("infocontainer-show");
         contOne.classList.add("infocontainer");
-        btnOne.style.opacity = "0.7";
+        btnOne.style.opacity = "0.8";
         btnOne.style.bottom = "3vh";
         infoOne.style.opacity = "0"
         eOne = 1
@@ -67,7 +67,7 @@ btnTwo.onclick = function() {
         contTwo.style.transition = "1s" 
         contTwo.classList.remove("infocontainer-show");
         contTwo.classList.add("infocontainer");
-        btnTwo.style.opacity = "0.7";
+        btnTwo.style.opacity = "0.8";
         btnTwo.style.bottom = "3vh";
         infoTwo.style.opacity = "0"
         eTwo = 1
@@ -106,7 +106,7 @@ btnThree.onclick = function() {
         contThree.style.transition = "1s" 
         contThree.classList.remove("infocontainer-show");
         contThree.classList.add("infocontainer");
-        btnThree.style.opacity = "0.7";
+        btnThree.style.opacity = "0.8";
         btnThree.style.bottom = "3vh";
         infoThree.style.opacity = "0"
         eThree = 1

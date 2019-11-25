@@ -4,3 +4,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#project-2 {
+    background-image: url("../content/img/flower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project-3 {
+    background-image: url("../content/img/flower2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
