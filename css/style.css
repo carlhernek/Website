@@ -54,9 +54,6 @@ body {
     opacity: 0;
     margin: 5%;
     transition: 1s;
-}
-
-.infohandler p {
     font-size: .8rem;
 }
 
@@ -104,6 +101,7 @@ body {
 @media only screen and (orientation: portrait) {
     .infohandler {
         margin-top: 12%;
+        font-size: 1.8rem;
     }
 
     .button {
