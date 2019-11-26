@@ -1,8 +1,5 @@
 #project-1 {
-    background-image: url("../content/img/Casio.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--project-complementary-color);
 }
 
 #project-2 {
