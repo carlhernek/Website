@@ -40,6 +40,7 @@ body {
 }
 
 .project {
+    position: relative;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
@@ -61,12 +62,14 @@ body {
     width: var(--container-width);
     height: 5%;
     background-color: var(--project-color);
+    z-index: 2;
 }
 
 .infocontainer-show {
     width: var(--container-width);
     height: 85%;
     background-color: var(--project-color);
+    z-index: 2;
 }
 
 .buttoncontainer {
@@ -75,6 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 0;
+    z-index: 3;
 }
 
 .button {
@@ -97,7 +101,7 @@ body {
 
 .desktopmenu {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -10px;
     width: 70px;
     text-align: center;
@@ -106,7 +110,7 @@ body {
 .desktopmenu h2 {
     background-color: var(--project-complementary-color);
     color: var(--project-font-color);
-    padding: 2%;
+    padding: 3%;
     font-size: .8rem;
     transition: .25s;
 }
