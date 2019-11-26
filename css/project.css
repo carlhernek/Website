@@ -6,10 +6,7 @@
 }
 
 #project-2 {
-    background-image: url("../content/img/flower.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--project-complementary-color);
 }
 
 #project-3 {

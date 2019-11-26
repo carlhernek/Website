@@ -1,0 +1,95 @@
+#curriculumv {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#split {
+    display: flex;
+}
+
+#split span {
+    margin-right: 45px;
+}
+
+#split-column {
+    margin-top: 47px;
+}
+
+.column {
+    height: 48%;
+    width: 95%;
+    background-color: var(--project-complementary-color);
+    padding-left: 3%;
+}
+
+.column p {
+    font-weight: 300;
+    line-height: 1.35rem;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.column h3 {
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-weight: 700;
+}
+
+.iconcontainer {
+    display: flex;
+    width: 70%;
+}
+
+.logoicon {
+    height: 35px;
+    width: 35px;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    
+    #curriculumv {
+        flex-flow: row;
+        justify-content: space-evenly;
+        height: 37vh;
+    }
+
+    .column {
+        width: 48%;
+        height: 97%;
+    }
+}
+
+@media only screen 
+and (orientation: landscape)
+{
+    #curriculumv {
+        flex-flow: row;
+        justify-content: space-evenly;
+        height: var(--container-height);
+    }
+
+    .column {
+        width: 48%;
+        height: 97%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 1024px)
+and (orientation: landscape)
+{
+    #curriculumv {
+        height: 350px;
+    }
+}
