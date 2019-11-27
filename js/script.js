@@ -16,6 +16,7 @@ btnOne.onclick = function() {
         contOne.classList.add("infocontainer-show");
         btnOne.style.opacity = "1";
         btnOne.style.bottom = "-30px";
+        infoOne.style.display = "block";
         setTimeout(function(){
             infoOne.style.opacity = "1";
             contOne.style.transition = "0s";
@@ -30,6 +31,7 @@ btnOne.onclick = function() {
         contOne.classList.add("infocontainer");
         btnOne.style.opacity = "0.8";
         btnOne.style.bottom = "3vh";
+        infoOne.style.display = "none";
         infoOne.style.opacity = "0"
         eOne = 1
         setTimeout(function(){contOne.style.transition = "0s"}, 1000)
@@ -55,6 +57,7 @@ btnTwo.onclick = function() {
         contTwo.classList.add("infocontainer-show");
         btnTwo.style.opacity = "1";
         btnTwo.style.bottom = "-30px";
+        infoTwo.style.display = "block";
         setTimeout(function(){
             infoTwo.style.opacity = "1";
             contTwo.style.transition = "0s";
@@ -69,6 +72,7 @@ btnTwo.onclick = function() {
         contTwo.classList.add("infocontainer");
         btnTwo.style.opacity = "0.8";
         btnTwo.style.bottom = "3vh";
+        infoTwo.style.display = "none";
         infoTwo.style.opacity = "0"
         eTwo = 1
         setTimeout(function(){contTwo.style.transition = "0s"}, 1000)
@@ -94,6 +98,7 @@ btnThree.onclick = function() {
         contThree.classList.add("infocontainer-show");
         btnThree.style.opacity = "1";
         btnThree.style.bottom = "-30px";
+        infoThree.style.display = "block";
         setTimeout(function(){
             infoThree.style.opacity = "1";
             contThree.style.transition = "0s";
@@ -108,6 +113,7 @@ btnThree.onclick = function() {
         contThree.classList.add("infocontainer");
         btnThree.style.opacity = "0.8";
         btnThree.style.bottom = "3vh";
+        infoThree.style.display = "none";
         infoThree.style.opacity = "0"
         eThree = 1
         setTimeout(function(){contThree.style.transition = "0s"}, 1000)
