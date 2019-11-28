@@ -30,3 +30,9 @@ menuBtnFour.onclick = function () {
 menuBtnFive.onclick = function () {
     scrFive.scrollIntoView();
 }
+
+let ctaArrow = document.getElementById("clickarrow");
+
+ctaArrow.onclick = function () {
+    scrTwo.scrollIntoView();
+}

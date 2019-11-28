@@ -22,6 +22,7 @@
     width: 95%;
     background-color: var(--project-complementary-color);
     padding-left: 3%;
+    font-size: 1rem;
 }
 
 .column p {
@@ -82,7 +83,7 @@ and (orientation: landscape)
     .column {
         width: 48%;
         height: 97%;
-    }
+    } 
 }
 
 @media only screen 

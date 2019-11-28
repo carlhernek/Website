@@ -5,7 +5,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    font-size: 12pt;
+    font-size: 2vh;
     font-family: 'Open Sans', sans-serif;
     background-color: var(--project-color);
 }
