@@ -1,0 +1,38 @@
+#aboutme {
+    position: relative;
+}
+
+.logoblock {
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+}
+
+#logoblockmobile {
+    left: 15px;
+    top: 15px;
+    background-color: var(--project-font-color);
+}
+
+#logoblockdesktop {
+    display: none;
+    top: -80px;
+    background-color: var(--project-color);
+}
+
+@media screen
+and (orientation:landscape)
+and (min-width: 1024px) {
+    #logoblockmobile {
+        display: none;
+    }
+    
+    #logoblockdesktop {
+        display: block;
+    }
+
+    .logoblock {
+        height: 70px;
+        width: 70px;
+    }
+}
