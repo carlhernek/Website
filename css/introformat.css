@@ -35,7 +35,8 @@
     position: absolute;
     height: 25px;
     width: 25px;
-    bottom: 25px;
+    bottom: 35px;
+    transition: .15s;
 }
 
 .ctaarrow span {
@@ -54,6 +55,18 @@
 #arrow-right {
     transform: rotate(135deg);
     right: .5px;
+}
+
+.introtextcontainer {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: var(--project-complementary-color);
+}
+
+.introtextcontainer p {
+    font-size: 1.4rem;
 }
 
 @media screen
