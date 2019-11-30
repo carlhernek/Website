@@ -58,25 +58,28 @@
 }
 
 .introtextcontainer {
+    display: flex;
+    flex-flow: column;
     text-align: center;
+    justify-content: flex-end;
     height: 100%;
     width: 100%;
     background-color: var(--project-complementary-color);
 }
 
-.introtextcontainer h3 {
+.introtextcontainer h1 {
     width: 92%;
     margin: 15px;
-    margin-top: 150px;
 }
 
 .introtextcontainer p {
     width: 92%;
     margin: 15px;
+    margin-bottom: 100px;
 }
 
 @media only screen 
-and (orientation:landscape) {
+and (orientation : landscape) {
     .logoblock {
         height: 70px;
         width: 70px;
@@ -87,8 +90,15 @@ and (orientation:landscape) {
     }
 }
 
+@media only screen 
+and (orientation : portrait) {
+    .introtextcontainer p {
+        margin-bottom: 200px;
+    }
+}
+
 @media screen
-and (orientation:landscape)
+and (orientation : landscape)
 and (min-width: 1024px) {
     #logoblockmobile {
         display: none;
@@ -100,5 +110,6 @@ and (min-width: 1024px) {
 
     .introtextcontainer p {
         margin: 3%;
+        margin-bottom: 200px;
     }
 }
