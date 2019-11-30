@@ -51,6 +51,10 @@ body {
     color: var(--project-font-color);
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 p {
     font-size: 1rem;
     font-weight: 300;
