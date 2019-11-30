@@ -101,6 +101,7 @@ h3 {
     height: 5%;
     background-color: var(--project-color);
     z-index: 2;
+    overflow: hidden;
 }
 
 .infocontainer-show {
@@ -108,6 +109,7 @@ h3 {
     height: var(--container-height);
     background-color: var(--project-color);
     z-index: 2;
+    overflow: hidden;
 }
 
 .buttoncontainer {
@@ -117,6 +119,11 @@ h3 {
     justify-content: center;
     height: 0;
     z-index: 3;
+}
+
+.padder {
+    height: 100%;
+    width: 100%;
 }
 
 .button {
