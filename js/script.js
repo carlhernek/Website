@@ -39,9 +39,7 @@ window.addEventListener("orientationchange", function() {
     eThree = 1
     setTimeout(function(){contThree.style.transition = "0s"}, 1000)
     // General
-    scrollHandler.scrollTop = 0;
-    scrollHandler.scrollLeft = 0;
-    console.log("memes");
+    location.reload(); 
 });
 
 // Code for project 1
