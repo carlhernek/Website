@@ -2,7 +2,7 @@
 .buttonicon-circle-i {
     position: absolute;
     height: 4px;
-    width: 7px;
+    width: 8px;
     bottom: 58%;
     transition: .55s;
     background-color: var(--project-complementary-color);
