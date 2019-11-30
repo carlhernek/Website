@@ -96,6 +96,7 @@ h3 {
 }
 
 .infocontainer {
+    position: relative;
     width: var(--container-width);
     height: 5%;
     background-color: var(--project-color);
@@ -104,6 +105,7 @@ h3 {
 }
 
 .infocontainer-show {
+    position: relative;
     width: var(--container-width);
     height: var(--container-height);
     background-color: var(--project-color);
@@ -217,7 +219,7 @@ and (orientation : landscape) {
 }
 
 @media screen 
-and (max-width : 460px) {
+and (max-width : 374px) {
     p {
         font-size: .8rem;
     }
