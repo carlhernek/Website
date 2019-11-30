@@ -64,7 +64,6 @@
 }
 
 .introtextcontainer h3 {
-    font-size: 1.2rem;
     width: 92%;
     margin: 15px;
     margin-top: 150px;
@@ -76,6 +75,18 @@
     margin: 15px;
 }
 
+@media only screen 
+and (orientation:landscape) {
+    .logoblock {
+        height: 70px;
+        width: 70px;
+    }
+
+    .introtextcontainer h3 {
+        margin: 3%;
+    }
+}
+
 @media screen
 and (orientation:landscape)
 and (min-width: 1024px) {
@@ -85,16 +96,6 @@ and (min-width: 1024px) {
     
     #logoblockdesktop {
         display: block;
-    }
-
-    .logoblock {
-        height: 70px;
-        width: 70px;
-    }
-
-    .introtextcontainer h3 {
-        margin-top: 3.5%;
-        margin: 3%;
     }
 
     .introtextcontainer p {

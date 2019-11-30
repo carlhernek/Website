@@ -14,7 +14,7 @@
 }
 
 #split-column {
-    margin-top: 47px;
+    margin-top: 51px;
 }
 
 .column {
@@ -22,24 +22,6 @@
     width: 95%;
     background-color: var(--project-complementary-color);
     padding-left: 3%;
-    font-size: 1rem;
-}
-
-.column p {
-    font-weight: 300;
-    line-height: 1.35rem;
-}
-
-.column h2 {
-    text-align: center;
-}
-
-.column h3 {
-    text-decoration: underline;
-}
-
-.subtitle {
-    font-weight: 700;
 }
 
 .iconcontainer {
@@ -69,6 +51,7 @@ and (orientation : portrait) {
         width: 48%;
         height: 97%;
     }
+
 }
 
 @media only screen 
