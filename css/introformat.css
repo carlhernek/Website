@@ -58,6 +58,7 @@
 }
 
 .introtextcontainer {
+    text-align: center;
     height: 100%;
     width: 100%;
     background-color: var(--project-complementary-color);
@@ -70,7 +71,6 @@
 }
 
 .introtextcontainer p {
-    font-size: .8rem;
     width: 92%;
     margin: 15px;
 }

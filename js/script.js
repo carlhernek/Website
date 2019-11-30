@@ -1,3 +1,8 @@
+// General code
+let scrollHandler = document.getElementById("scrollhandler");
+
+
+
 // Code for project 1
 
 let btnOne = document.getElementById("infobutton-1");
@@ -11,6 +16,7 @@ btnOne.onclick = function() {
 
     case 1:
         transformOneToX();
+        scrollHandler.style.overflowY = "hidden";
         contOne.style.transition = "1s" // To avoid the div crawling along the screen when flipping phone
         contOne.classList.remove("infocontainer");
         contOne.classList.add("infocontainer-show");
@@ -26,6 +32,7 @@ btnOne.onclick = function() {
     
     case 2:
         transformOneToI();
+        scrollHandler.style.overflowY = "scroll";
         contOne.style.transition = "1s" 
         contOne.classList.remove("infocontainer-show");
         contOne.classList.add("infocontainer");
@@ -52,6 +59,7 @@ btnTwo.onclick = function() {
 
     case 1:
         transformTwoToX();
+        scrollHandler.style.overflowY = "hidden";
         contTwo.style.transition = "1s" 
         contTwo.classList.remove("infocontainer");
         contTwo.classList.add("infocontainer-show");
@@ -67,6 +75,7 @@ btnTwo.onclick = function() {
     
     case 2:
         transformTwoToI();
+        scrollHandler.style.overflowY = "scroll";
         contTwo.style.transition = "1s" 
         contTwo.classList.remove("infocontainer-show");
         contTwo.classList.add("infocontainer");
@@ -93,6 +102,7 @@ btnThree.onclick = function() {
 
     case 1:
         transformThreeToX();
+        scrollHandler.style.overflowY = "hidden";
         contThree.style.transition = "1s" 
         contThree.classList.remove("infocontainer");
         contThree.classList.add("infocontainer-show");
@@ -108,6 +118,7 @@ btnThree.onclick = function() {
     
     case 2:
         transformThreeToI();
+        scrollHandler.style.overflowY = "scroll";
         contThree.style.transition = "1s" 
         contThree.classList.remove("infocontainer-show");
         contThree.classList.add("infocontainer");

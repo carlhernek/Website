@@ -2,8 +2,8 @@
 .buttonicon-circle-i {
     position: absolute;
     height: 4px;
-    width: 8px;
-    bottom: 56%;
+    width: 7px;
+    bottom: 58%;
     transition: .55s;
     background-color: var(--project-complementary-color);
     z-index: 1;
@@ -13,8 +13,8 @@
     opacity: 0;
     position: absolute;
     height: 4px;
-    width: 8px;
-    bottom: 56%;
+    width: 7px;
+    bottom: 58%;
     transition: .15s;
     background-color: var(--project-complementary-color);
     z-index: 1;
@@ -23,7 +23,7 @@
 .buttonicon-hidden-merge {
     opacity: 0;
     position: absolute;
-    height: 8px;
+    height: 7px;
     width: 4px;
     bottom: 56%;
     transform: rotate(90deg);
@@ -33,7 +33,7 @@
 
 .buttonicon-line-90-i {
     position: absolute;
-    height: 7px;
+    height: 6px;
     width: 30px;
     transform: rotate(90deg);
     transition: .15s;
@@ -42,7 +42,7 @@
 
 .buttonicon-line-90 {
     position: absolute;
-    height: 7px;
+    height: 6px;
     width: 30px;
     transform: rotate(90deg);
     transition: .25s;
@@ -51,7 +51,7 @@
 
 .buttonicon-line-45 {
     position: absolute;
-    height: 7px;
+    height: 6px;
     width: 30px;
     transform: rotate(45deg);
     transition: .25s;
@@ -62,7 +62,7 @@
 
 .buttonicon-line--45 {
     position: absolute;
-    height: 7px;
+    height: 6px;
     width: 30px;
     transform: rotate(135deg);
     transition: .25s;
