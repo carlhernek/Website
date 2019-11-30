@@ -30,8 +30,8 @@ body {
 .scrollhandler {
     height: var(--container-height);
     overflow-y: scroll;
-    /*scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;*/
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     transition: .15s;
     scrollbar-width: none;
 } ::-webkit-scrollbar {
@@ -47,7 +47,7 @@ body {
     height: var(--container-height);
     width: var(--container-width);
     background-color: var(--project-color);
-    /*scroll-snap-align: start;*/
+    scroll-snap-align: end;
     color: var(--project-font-color);
 }
 
