@@ -87,6 +87,9 @@ h3 {
     background: transparent; /* make scrollbar transparent */
 }
 
+.infohandler p {
+    padding-bottom: 60px;
+}
 
 .infocontainer {
     width: var(--container-width);

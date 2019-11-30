@@ -1,7 +1,48 @@
 // General code
 let scrollHandler = document.getElementById("scrollhandler");
 
-
+window.addEventListener("orientationchange", function() {
+    // Project 1
+    transformOneToI();
+    scrollHandler.style.overflowY = "scroll";
+    contOne.style.transition = "1s" 
+    contOne.classList.remove("infocontainer-show");
+    contOne.classList.add("infocontainer");
+    btnOne.style.opacity = "0.8";
+    btnOne.style.bottom = "3vh";
+    infoOne.style.display = "none";
+    infoOne.style.opacity = "0"
+    eOne = 1
+    setTimeout(function(){contOne.style.transition = "0s"}, 1000)
+    // Project 2
+    transformTwoToI();
+    scrollHandler.style.overflowY = "scroll";
+    contTwo.style.transition = "1s" 
+    contTwo.classList.remove("infocontainer-show");
+    contTwo.classList.add("infocontainer");
+    btnTwo.style.opacity = "0.8";
+    btnTwo.style.bottom = "3vh";
+    infoTwo.style.display = "none";
+    infoTwo.style.opacity = "0"
+    eTwo = 1
+    setTimeout(function(){contTwo.style.transition = "0s"}, 1000)
+    // Project 3
+    transformThreeToI();
+    scrollHandler.style.overflowY = "scroll";
+    contThree.style.transition = "1s" 
+    contThree.classList.remove("infocontainer-show");
+    contThree.classList.add("infocontainer");
+    btnThree.style.opacity = "0.8";
+    btnThree.style.bottom = "3vh";
+    infoThree.style.display = "none";
+    infoThree.style.opacity = "0"
+    eThree = 1
+    setTimeout(function(){contThree.style.transition = "0s"}, 1000)
+    // General
+    scrollHandler.scrollTop = 0;
+    scrollHandler.scrollLeft = 0;
+    console.log("memes");
+});
 
 // Code for project 1
 
