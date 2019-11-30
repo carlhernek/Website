@@ -127,7 +127,7 @@ h3 {
     height: 50px;
     width: 50px;
     background-color: var(--project-complementary-color);
-    bottom: 3vh;
+    bottom: 6vh;
     opacity: .8;
     transition: 1s;
 }
@@ -197,15 +197,30 @@ and (min-width: 1024px) {
 }
 
 @media only screen 
-and (orientation: portrait) {
+and (orientation : portrait) {
     .infohandler {
         margin-top: 12%;
     }
 }
 
 @media only screen 
-and (orientation:landscape) {
+and (orientation : landscape) {
     body{
         font-size: 2vw;
+    }
+}
+
+@media screen 
+and (max-width : 460px) {
+    p {
+        font-size: .8rem;
+    }
+    
+    h3 {  
+        font-size: 1rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
     }
 }
