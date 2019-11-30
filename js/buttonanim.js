@@ -32,30 +32,30 @@ function transformOneToX () {
     }, 700)
 }
 
-function transformOneToI () {
+function transformOneToI (v, x, y, z) {
     setTimeout(function(){
         spanaOne.classList.remove(line45);
         spanaOne.classList.add(lineMerge);
         spanbOne.classList.remove(lineN45);
         spanbOne.classList.add(lineMerge);
-    }, 100)
+    }, v)
 
     setTimeout(function(){
         spanaOne.classList.remove(lineMerge);
         spanaOne.classList.add(hiddenMerge);
-    }, 700)
+    }, x)
 
     setTimeout(function(){
         spanaOne.classList.remove(hiddenMerge);
         spanaOne.classList.add(hidden);
-    }, 850)
+    }, y)
 
     setTimeout(function(){
         spanaOne.classList.remove(hidden);
         spanaOne.classList.add(circle);
         spanbOne.classList.remove(lineMerge);
         spanbOne.classList.add(lineI);
-    }, 1000)
+    }, z)
 }
 
 // Function button Two
@@ -76,30 +76,30 @@ function transformTwoToX () {
     }, 700)
 }
 
-function transformTwoToI () {
+function transformTwoToI (v, x, y, z) {
     setTimeout(function(){
         spanaTwo.classList.remove(line45);
         spanaTwo.classList.add(lineMerge);
         spanbTwo.classList.remove(lineN45);
         spanbTwo.classList.add(lineMerge);
-    }, 100)
+    }, v)
 
     setTimeout(function(){
         spanaTwo.classList.remove(lineMerge);
         spanaTwo.classList.add(hiddenMerge);
-    }, 700)
+    }, x)
 
     setTimeout(function(){
         spanaTwo.classList.remove(hiddenMerge);
         spanaTwo.classList.add(hidden);
-    }, 850)
+    }, y)
 
     setTimeout(function(){
         spanaTwo.classList.remove(hidden);
         spanaTwo.classList.add(circle);
         spanbTwo.classList.remove(lineMerge);
         spanbTwo.classList.add(lineI);
-    }, 1000)
+    }, z)
 }
 
 // Function button Three
@@ -120,30 +120,30 @@ function transformThreeToX () {
     }, 700)
 }
 
-function transformThreeToI () {
+function transformThreeToI (v, x, y, z) {
     setTimeout(function(){
         spanaThree.classList.remove(line45);
         spanaThree.classList.add(lineMerge);
         spanbThree.classList.remove(lineN45);
         spanbThree.classList.add(lineMerge);
-    }, 100)
+    }, v)
 
     setTimeout(function(){
         spanaThree.classList.remove(lineMerge);
         spanaThree.classList.add(hiddenMerge);
-    }, 700)
+    }, x)
 
     setTimeout(function(){
         spanaThree.classList.remove(hiddenMerge);
         spanaThree.classList.add(hidden);
-    }, 850)
+    }, y)
 
     setTimeout(function(){
         spanaThree.classList.remove(hidden);
         spanaThree.classList.add(circle);
         spanbThree.classList.remove(lineMerge);
         spanbThree.classList.add(lineI);
-    }, 1000)
+    }, z)
 }
 
 spanaOne.classList.add(circle);

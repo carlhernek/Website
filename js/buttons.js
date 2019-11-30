@@ -12,27 +12,33 @@ let menuBtnFour = document.getElementById("design");
 let menuBtnFive = document.getElementById("resume");
 
 menuBtnOne.onclick = function () {
+    closeAll();
     scrOne.scrollIntoView();
 }
 
 menuBtnTwo.onclick = function () {
+    closeAll();
     scrTwo.scrollIntoView();
 }
 
 menuBtnThree.onclick = function () {
+    closeAll();
     scrThree.scrollIntoView();
 }
 
 menuBtnFour.onclick = function () {
+    closeAll();
     scrFour.scrollIntoView();
 }
 
 menuBtnFive.onclick = function () {
+    closeAll();
     scrFive.scrollIntoView();
 }
 
 let ctaArrow = document.getElementById("clickarrow");
 
 ctaArrow.onclick = function () {
+    closeAll();
     scrTwo.scrollIntoView();
 }
