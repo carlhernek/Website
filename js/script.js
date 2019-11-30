@@ -65,7 +65,6 @@ function openThree() {
 
 function closeOne(v, x, y, z) {
     transformOneToI(v, x, y, z);
-    scrollHandler.style.overflowY = "scroll";
     contOne.style.transition = "1s" 
     contOne.classList.remove("infocontainer-show");
     contOne.classList.add("infocontainer");
@@ -74,12 +73,14 @@ function closeOne(v, x, y, z) {
     infoOne.style.display = "none";
     infoOne.style.opacity = "0"
     eOne = 1
-    setTimeout(function(){contOne.style.transition = "0s"}, 1000)
+    setTimeout(function(){
+        contOne.style.transition = "0s"
+        scrollHandler.style.overflowY = "scroll";
+    }, 1000)
 };
 
 function closeTwo(v, x, y, z) {
     transformTwoToI(v, x, y, z);
-    scrollHandler.style.overflowY = "scroll";
     contTwo.style.transition = "1s" 
     contTwo.classList.remove("infocontainer-show");
     contTwo.classList.add("infocontainer");
@@ -88,12 +89,14 @@ function closeTwo(v, x, y, z) {
     infoTwo.style.display = "none";
     infoTwo.style.opacity = "0"
     eTwo = 1
-    setTimeout(function(){contTwo.style.transition = "0s"}, 1000)
+    setTimeout(function(){
+        contTwo.style.transition = "0s"
+        scrollHandler.style.overflowY = "scroll";
+    }, 1000)
 }
 
 function closeThree (v, x, y, z) {
     transformThreeToI(v, x, y, z);
-    scrollHandler.style.overflowY = "scroll";
     contThree.style.transition = "1s" 
     contThree.classList.remove("infocontainer-show");
     contThree.classList.add("infocontainer");
@@ -102,7 +105,10 @@ function closeThree (v, x, y, z) {
     infoThree.style.display = "none";
     infoThree.style.opacity = "0"
     eThree = 1
-    setTimeout(function(){contThree.style.transition = "0s"}, 1000)
+    setTimeout(function(){
+    contThree.style.transition = "0s"
+    scrollHandler.style.overflowY = "scroll";
+    }, 1000)
 }
 
 // Project 1
