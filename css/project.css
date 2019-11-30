@@ -1,5 +1,8 @@
 #project-1 {
-    background-color: var(--project-complementary-color);
+    background-image: url("../content/img/Frontend.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #project-2 {
