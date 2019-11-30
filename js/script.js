@@ -70,7 +70,7 @@ function closeOne(v, x, y, z) {
     contOne.classList.remove("infocontainer-show");
     contOne.classList.add("infocontainer");
     btnOne.style.opacity = "0.8";
-    btnOne.style.bottom = "12vh";
+    btnOne.style.bottom = "60px";
     infoOne.style.display = "none";
     infoOne.style.opacity = "0"
     eOne = 1
@@ -84,7 +84,7 @@ function closeTwo(v, x, y, z) {
     contTwo.classList.remove("infocontainer-show");
     contTwo.classList.add("infocontainer");
     btnTwo.style.opacity = "0.8";
-    btnTwo.style.bottom = "12vh";
+    btnTwo.style.bottom = "60px";
     infoTwo.style.display = "none";
     infoTwo.style.opacity = "0"
     eTwo = 1
@@ -98,7 +98,7 @@ function closeThree (v, x, y, z) {
     contThree.classList.remove("infocontainer-show");
     contThree.classList.add("infocontainer");
     btnThree.style.opacity = "0.8";
-    btnThree.style.bottom = "12vh";
+    btnThree.style.bottom = "60px";
     infoThree.style.display = "none";
     infoThree.style.opacity = "0"
     eThree = 1
