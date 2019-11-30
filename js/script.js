@@ -39,7 +39,10 @@ window.addEventListener("orientationchange", function() {
     eThree = 1
     setTimeout(function(){contThree.style.transition = "0s"}, 1000)
     // General
-    location.reload(); 
+    location.reload();
+    scrollHandler.scrollTop = 0;
+    scrollHandler.scrollLeft = 0;
+
 });
 
 // Code for project 1
