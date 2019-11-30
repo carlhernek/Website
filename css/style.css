@@ -127,7 +127,7 @@ h3 {
     height: 50px;
     width: 50px;
     background-color: var(--project-complementary-color);
-    bottom: 6vh;
+    bottom: 12vh;
     opacity: .8;
     transition: 1s;
 }
