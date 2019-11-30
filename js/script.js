@@ -18,11 +18,11 @@ function closeAll() {
 function openOne() {
     transformOneToX();
     scrollHandler.style.overflowY = "hidden";
-    contOne.style.transition = "1s" // To avoid the div crawling along the screen when flipping phone
+    contOne.style.transition = "1s";
     contOne.classList.remove("infocontainer");
     contOne.classList.add("infocontainer-show");
     btnOne.style.opacity = "1";
-    btnOne.style.bottom = "-30px";
+    btnOne.style.bottom = "-60px";
     infoOne.style.display = "block";
     setTimeout(function(){
         infoOne.style.opacity = "1";
@@ -34,11 +34,11 @@ function openOne() {
 function openTwo() {
     transformTwoToX();
     scrollHandler.style.overflowY = "hidden";
-    contTwo.style.transition = "1s" 
+    contTwo.style.transition = "1s" ;
     contTwo.classList.remove("infocontainer");
     contTwo.classList.add("infocontainer-show");
     btnTwo.style.opacity = "1";
-    btnTwo.style.bottom = "-30px";
+    btnTwo.style.bottom = "-60px";
     infoTwo.style.display = "block";
     setTimeout(function(){
         infoTwo.style.opacity = "1";
@@ -54,7 +54,7 @@ function openThree() {
     contThree.classList.remove("infocontainer");
     contThree.classList.add("infocontainer-show");
     btnThree.style.opacity = "1";
-    btnThree.style.bottom = "-30px";
+    btnThree.style.bottom = "-60px";
     infoThree.style.display = "block";
     setTimeout(function(){
         infoThree.style.opacity = "1";
